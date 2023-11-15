@@ -25,14 +25,20 @@ certain and advanced future.
 
 ## Licenses
 
-Apache License 2.0
+  
+Apache License 2.0  
+
 
 ## Authors
 
-18011093 황성태
-18011543 박지환
-19010976 김민재
-19012022 홍석주
+18011093 황성태  
+
+18011543 박지환  
+
+19010976 김민재  
+
+19012022 홍석주  
+
 
 
 ## 
