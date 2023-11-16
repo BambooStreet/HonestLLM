@@ -1,0 +1,9 @@
+=================
+practice
+=================
+.. note:: 
+    this is practice page
+
+See the Sejong_ home page for info.
+
+.. _Sejong: http://www.sejong.ac.kr
