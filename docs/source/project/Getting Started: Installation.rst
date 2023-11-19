@@ -16,4 +16,3 @@ Google Chrome Extension
 2. Locate and select the extension you want to install
 3. Click Add to Chrome
 4. Some extensions notify you if you need certain privileges or data. Click 'Add Extension' to approve
-
