@@ -10,8 +10,10 @@ system requirements
 
 Installation Process:
 
-# Google Chrome Extension
-
+Google Chrome Extension
+==============
 1. Go to Chrome web store
-2. Click download button
+2. Locate and select the extension you want to install
+3. Click Add to Chrome
+4. Some extensions notify you if you need certain privileges or data. Click 'Add Extension' to approve
 
