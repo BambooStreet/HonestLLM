@@ -10,8 +10,8 @@ system requirements
 
 Installation Process:
 
+# Google Chrome Extension
 
-
-1. Go to page
+1. Go to Chrome web store
 2. Click download button
 
