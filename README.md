@@ -22,6 +22,18 @@ Python 3.8 or later
 
 macOS, Windows are supported.
 
+#### Plugin
+
+
+#### Local
+To use it in your local environment, please obtain an API key from the site below.
+* openai api
+https://platform.openai.com/api-keys
+* naver news api
+https://developers.naver.com/docs/serviceapi/search/news/news.md
+
+
+
 
 ## Usage
 It is waiting to be reviewed in the OPEN AI WAITLIST.
