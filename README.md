@@ -25,7 +25,7 @@ Embed user input and match it against a news article.Calculate the similarity be
 https://platform.openai.com/docs/guides/embeddings/limitations-risks
 
 #### naver news api
-<img src="./img/naver.png" width="500" height="300"/>
+![plugin_use](./img/naver.png)
 Using the NAVER News API, you can select articles that are most similar to the user's question and have a conversation with LLM based on that.
 
 
