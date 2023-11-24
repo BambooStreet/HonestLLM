@@ -28,6 +28,17 @@ It is waiting to be reviewed in the OPEN AI WAITLIST.
 
 ![installation](./img/installation.png)
 
+### examples
+user input 
+![input](./img/user_input.png)
+
+output
+![output](./img/result.png)
+
+
+
+
+
 ## Licenses
 
   
