@@ -49,7 +49,7 @@ Use NAVER's News Article API
 ![naver_api](./img/naver_api.png)
 
 Embed user input and match it against a news article.
-![visual](./img/embeddings_visual.png)
+![visual](./img/embeddings_visual.webp)
 https://platform.openai.com/docs/guides/embeddings/limitations-risks
 
 
