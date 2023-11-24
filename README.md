@@ -26,7 +26,7 @@ macOS, Windows are supported.
 ## Usage
 It is waiting to be reviewed in the OPEN AI WAITLIST.
 
-![installation](\installation.png)
+![installation](\HonestLLM\installation.png)
 
 ## Licenses
 
