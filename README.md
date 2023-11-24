@@ -27,6 +27,9 @@ https://platform.openai.com/docs/guides/embeddings/limitations-risks
 ##### Use naver news api
 <p align="center"><img src="./img/naver.png"></p>
 
+
+https://developers.naver.com/docs/serviceapi/search/news/news.md
+
 Using the NAVER News API, you can select articles that are most similar to the user's question and have a conversation with LLM based on that.
 
 ##### Calculate cosine similarity
