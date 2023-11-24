@@ -77,12 +77,14 @@ Then, using our code, we can see the appropriate output for the user's question.
 
 #### Example
 ##### input
+For example, you might ask for recent news stories about Heung Min Son.
 ```python
 answer = generate_answer('손흥민의 최근 뉴스들을 알려줘')
 ```
 
 
 ##### output
+HonestLLM extracts keywords from user questions and informs you about them based on recent news. 
 ```python
 answer
 손흥민 선수에 관한 최근 뉴스에는 다음과 같은 내용이 포함되어 있습니다:
