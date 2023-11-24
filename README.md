@@ -15,19 +15,57 @@ We couldn't realistically apply it to all domains.
 Therefore, we made sure that LLM could respond correctly to recent Korean news articles.
 
 
+#### Methods
 
-
-#### Embedding
+##### Embedding
 Embed user input and match it against a news article.Calculate the similarity between the user's question and the article through embedding. 
 
 <img src="./img/embeddings_visual.webp" width="500" height="300"/>
 
 https://platform.openai.com/docs/guides/embeddings/limitations-risks
 
-#### Use naver news api
+##### Use naver news api
 <p align="center"><img src="./img/naver.png"></p>
 
 Using the NAVER News API, you can select articles that are most similar to the user's question and have a conversation with LLM based on that.
+
+##### Calculate cosine similarity
+```python
+def strings_ranked_by_relatedness(
+    query: str, #쿼리문 입력
+    df: pd.DataFrame, #데이터프레임
+    relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y), #코사인 유사도 계산
+    top_n: int = 100
+) -> tuple[list[str], list[float]]:
+    """Returns a list of strings and relatednesses, sorted from most related to least.
+    """
+
+    query_embedding = get_embedding(query) #쿼리문 임베딩
+    strings_and_relatednesses = [ #text와 유사도 계산
+        (row["title"], row["text"], relatedness_fn(query_embedding, row["title_embedding"]))
+        for i, row in df.iterrows()
+    ]
+    strings_and_relatednesses.sort(key=lambda x: x[1], reverse=True)
+    title_strings, text_strings, relatednesses = zip(*strings_and_relatednesses)
+    return title_strings[:top_n], text_strings[:top_n], relatednesses[:top_n]
+```
+
+##### Extract relevant article titles
+```python
+relatedness=0.782
+"토트넘, 이건 정말 기회야!....'사우디 1타깃' 히샬리송, 제발로 걸어 나갈 수도"
+relatedness=0.853
+"SON 이런 모습 처음이야! 손흥민이 가장 긴장했던 순간은?"
+relatedness=0.787
+"반려견 애정 영부인, 유머 있는 대통령…유럽 매체들 집중 보도"
+relatedness=0.775
+"황의조, 귀국 대신 바로 영국으로 떠나"
+relatedness=0.862
+"손흥민은 쏘니, 황희찬은 차니!..."재계약 희망적" 울버햄튼 감독이 직접 나섰다"
+```
+
+Answer by selecting the most similar articles.
+For a detailed example, see the example below.
 
 
 This way, you can expect an answer based on accurate evidence.
@@ -80,6 +118,8 @@ It is waiting to be reviewed in the OPEN AI waitlist.
 In Local environment, it utilizes the API KEY you were issued.
 
 Then, using our code, we can see the appropriate output for the user's question.
+
+When writing your question, try to make your keywords stand out as much as possible!
 
 #### Example
 ##### input
