@@ -16,11 +16,16 @@ Through this, we will create a safe and reliable artificial intelligence environ
 certain and advanced future.
 
 ## Installation
+system requirements
+
+Python 3.8 or later
+
+macOS, Windows are supported.
 
 
 
 ## Usage
-
+It is waiting to be reviewed in the OPEN AI WAITLIST.
 
 
 ## Licenses
