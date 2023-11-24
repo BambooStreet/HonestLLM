@@ -28,13 +28,12 @@ It is waiting to be reviewed in the OPEN AI WAITLIST.
 
 ![installation](./img/installation.png)
 
-### examples
-user input 
-![input](./img/user_input.png)
+Use NAVER's News Article API
+![naver_api](./img/naver_api.png)
 
-output
-![output](./img/result.png)
-
+Embed user input and match it against a news article.
+![visual](./img/embeddings_visual.png)
+https://platform.openai.com/docs/guides/embeddings/limitations-risks
 
 
 
