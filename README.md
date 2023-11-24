@@ -24,9 +24,14 @@ Embed user input and match it against a news article.Calculate the similarity be
 
 https://platform.openai.com/docs/guides/embeddings/limitations-risks
 
+#### naver news api
+<img src="./img/naver.png" width="500" height="300"/>
+Using the NAVER News API, you can select articles that are most similar to the user's question and have a conversation with LLM based on that.
+
 
 This way, you can expect an answer based on accurate evidence.
 
+HonestLLM gives you the experience of having a trendy conversation with an LLM.
 
 
 ## Mission Statement
