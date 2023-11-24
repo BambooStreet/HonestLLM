@@ -23,7 +23,8 @@ Python 3.8 or later
 macOS, Windows are supported.
 
 #### Plugin
-
+To get to the Chat GPT plugin, search for it in the following search bar
+![plugin_use](./img/Plugin_use.png)
 
 #### Local
 To use it in your local environment, please obtain an API key from the site below.
