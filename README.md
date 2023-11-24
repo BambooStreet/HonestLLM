@@ -50,6 +50,7 @@ Use NAVER's News Article API
 
 Embed user input and match it against a news article.
 ![visual](./img/embeddings_visual.webp)
+<img src="./img/embeddings_visual.webp" width="200" height="400"/>
 https://platform.openai.com/docs/guides/embeddings/limitations-risks
 
 
