@@ -23,10 +23,10 @@ Python 3.8 or later
 macOS, Windows are supported.
 
 
-
 ## Usage
 It is waiting to be reviewed in the OPEN AI WAITLIST.
 
+![installation](\installation.png)
 
 ## Licenses
 
