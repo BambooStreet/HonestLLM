@@ -35,7 +35,12 @@ Then enter your question in the input of our code.
 Example
 ---------------------------------------------------------------
 
+.. code-block:: python
 
+    def my_function():
+        print("Hello, Sphinx!")
+
+    my_function()
 
 
 
