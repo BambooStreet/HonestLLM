@@ -16,7 +16,7 @@ Installation Process:
 1. Go to openai GPT web store
 
 
-.. image:: ..images\install1.png
+.. image:: ..\images\install1.png
    :width: 400
 
 2. Locate and select the extension you want to install
