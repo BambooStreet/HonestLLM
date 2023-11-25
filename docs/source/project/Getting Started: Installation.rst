@@ -14,13 +14,15 @@ GPT plugin
 =========================
 Installation Process:
 1. Go to openai GPT web store
-.. image:: images/your-image-file.png
+.. image:: images/install1.png
 
 2. Locate and select the extension you want to install
-.. image:: images/your-image-file.png
+.. image:: images/install2.png
+.. image:: images/install3.png
+
 
 3. Click Add to GPT
-.. image:: images/your-image-file.png
+
 
 
 Local
