@@ -17,7 +17,7 @@ Installation Process:
 
 
 .. image:: images/install1.png
-   width : 400
+   width: 400
 
 2. Locate and select the extension you want to install
 
