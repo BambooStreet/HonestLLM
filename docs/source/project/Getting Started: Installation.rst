@@ -1,5 +1,5 @@
 ==============
-Getting Started: Installation
+Getting Started Installation
 ==============
 
 system requirements
