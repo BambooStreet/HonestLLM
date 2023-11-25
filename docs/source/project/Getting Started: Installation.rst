@@ -17,16 +17,16 @@ Installation Process:
 
 
 .. image:: images/install1.png
-   :width: 400
+
 
 2. Locate and select the extension you want to install
 
 
 .. image:: images/install2.png
-   :width: 400
+
 
 .. image:: images/install3.png
-   :width: 400
+
 
 3. Click Add to GPT
 
