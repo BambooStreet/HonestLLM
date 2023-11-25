@@ -206,6 +206,7 @@ def generate_data(openai : any, article: str, question : str) -> str:
 
       ]
     )
+    
     return response.choices[0].message.content
 
 def generate_answer(question : str):
