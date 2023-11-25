@@ -28,12 +28,12 @@ https://developers.naver.com/docs/serviceapi/search/news/news.md
 ### input questions
 Then enter your question in the input of our code.
 
+
+
 ### Example
-##### input
 
 
 
-##### output
 
 
 
