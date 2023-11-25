@@ -8,11 +8,24 @@ system requirements
 - macOS, Windows are supported.
 
 
-Installation Process:
 
-Google Chrome Extension
-==============
-1. Go to Chrome web store
+
+GPT plugin
+=========================
+Installation Process:
+1. Go to openai GPT web store
+.. image:: images/your-image-file.png
+
 2. Locate and select the extension you want to install
-3. Click Add to Chrome
-4. Some extensions notify you if you need certain privileges or data. Click 'Add Extension' to approve
+.. image:: images/your-image-file.png
+
+3. Click Add to GPT
+.. image:: images/your-image-file.png
+
+
+Local
+===============================
+Installation Process:
+1. It can work in a Python environment.
+
+2. Installation Requirements
