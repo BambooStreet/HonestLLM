@@ -11,7 +11,7 @@ author: Armando Maynez
 description: "As neural networks are used more and more in the creative process, text, images and even music are now created by AI, but who owns the copyright for those works?"
 ---
 
-![main](../assets/img/posts/20231210/HonsetLLM-main.png)
+![main](/assets/img/posts/20231210/HonsetLLM-main.png)
 
 Welcome to our open-source project, where we are pioneering a new approach to enhancing the reliability and credibility of responses provided by Large Language Models (LLMs). Our project is rooted in a simple yet powerful idea: ensuring that every response is not only intelligent but also grounded in reality.
 
