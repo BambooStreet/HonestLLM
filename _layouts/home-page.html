@@ -4,7 +4,18 @@ layout: default
 <div class="flex-container transparent">
   {% include header.html %}
   <div class="content wrapper">
-    {{ content }}
+    <div class="grid leadin">
+    <ul class ="text-block">
+    <li><h1>We are starting the <strong>HonestLLM</strong> open-source project.</h1></li>
+    
+    <li><h1>The goal of the project is to develop technologies to <strong>Determine The Authenticity</strong> of the output of AI models and to <strong>Prevent Hallucinations.</strong></h1></li> 
+    
+    <li><h1>Users will be able to visually check the <strong>Reliability</strong> of their answers using a fact-based database.</h1></li>
+    
+    <li><h1>Through this, we will create a safe and reliable artificial intelligence environment and a more certain and advanced future.</h1></li>
+    </ul>
+    </div>
+    {{content}}
     {% include search.html %}
     {% include pagination.html %}
     <div class="center-tags">
