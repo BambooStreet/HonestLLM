@@ -73,7 +73,7 @@ After completing the installation, you can run the project using the following c
 
 ## Getting ready..
 Once approved for the waitlist, it will also be available in GPT's plugin store soon!
-![gpt_pluginstore](/assets/img/posts/20231209/installation.png)
+![gpt_pluginstore](assets/img/posts/20231209/installation.png)
 
 
 ## Troubleshooting
