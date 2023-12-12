@@ -1,9 +1,6 @@
-Click to : [Read The Docs](https://honestllm.readthedocs.io)
+# HonestLLM
 
-Click to : [Jekyll Website](https://bamboostreet.github.io/HonestLLM/)
-
-# English
-
+[![Documentation Status](https://readthedocs.org/projects/honestllm/badge/?version=latest)](https://honestllm.readthedocs.io/en/latest/?badge=latest) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://bamboostreet.github.io/HonestLLM/) ![GitHub license](https://img.shields.io/github/license/BambooStreet/HonestLLM)
 **HonestLLM** is a tool that allows users to verify the accuracy of the output of AI models and
 provides information about the reason behind them.
 
